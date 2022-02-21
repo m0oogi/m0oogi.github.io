@@ -1,0 +1,30 @@
+title: the Simplex theme
+logo_img: /assets/img/icons/golasblog_logo.svg
+favicon: /assets/favicon.ico
+description: description
+global_tags: jekyll theme simplex golasblog responsive html5
+copyright: © m0oogi 2022
+
+theme: jekyll-theme-simplex
+
+sass:
+    style: compressed
+
+baseurl: ""
+url: "https://m0oogi.github.io/"
+
+collections:
+    category:
+        output: true
+    authors:
+        output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+
+
