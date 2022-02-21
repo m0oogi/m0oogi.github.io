@@ -8,6 +8,9 @@ copyright: © Golasowski 2021
 sass:
     style: compressed
 
+url: "https://m0oogi.github.io"
+
+
 collections:
     category:
         output: true
